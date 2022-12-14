@@ -1,0 +1,87 @@
+body {
+	background-color: #2F67B2;
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.poke-header {
+	width: 100%;
+}
+
+.poke-body {
+	color: white;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.poke-span {
+	font-size: 25px;
+}
+
+.poke-generation {
+	height: 30px;
+}
+
+label {
+	color: black !important;
+}
+
+.poke-fieldset {
+	margin: 5px !important;
+}
+
+.poke-locations {
+	font-size: 20px;
+}
+
+.poke-move {
+	width: 33%;
+	float: left;
+}
+
+.return {
+	margin-top: 10px;
+	font-size: 20px;
+	color: white;
+	justify-content: center;
+}
+
+/* Style the buttons that are used to openand close the accordion panel */
+.accordion {
+	background-color: #eee;
+	font-size: 25px;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move themouse over it (hover) */
+.active, .accordion:hover {
+	background-color: #ccc;
+}
+
+/* Style the accordion panel. Note:hidden by default */
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+	color: black;
+	width: 100%;
+}
